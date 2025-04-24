@@ -1,0 +1,103 @@
+*{
+}
+body{
+    padding: 0;
+}
+header{
+    background-color: darkblue;
+}
+nav{
+    display: flex;
+    text-decoration: none;
+    height: 42px;
+    margin-top: -10px;
+}
+.home{
+    display: flex;
+    gap: 20px;
+    width: 600px;
+    background-color: purple;
+}
+.head-four{
+    color: white;
+    text-decoration: none;
+    margin-left: 150px;
+    margin-top: -8px;
+}
+.head{
+    color: white;
+    text-decoration: none;
+    margin-top: -8px;
+}
+
+.today{
+    margin-left: 360px;
+    font-size: 17px;
+    background-color: lightslategray;
+    width: 250px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    margin-top: 15px;
+    margin-left: 100px;
+    display: flex;
+}
+.image{
+    margin-top: 5px;
+}
+.img{
+    margin-left: 25px;
+}
+.operations{
+    display: flex;
+    gap: 10px;
+    margin-top: -20px;
+    margin-left: 120px;
+}
+.head-one{
+    color: white;
+    background-color: rgb(233, 53, 89);
+    height: 15px;
+    width: 130px;
+    margin-left: 200px;
+    padding: 10px;
+}
+.head-two{
+    color: white;
+    background-color: rgb(106, 26, 122);
+    height: 12px;
+    width: 146px;
+    padding: 10px;
+}
+.head-three{
+    color: white;
+    background-color: rgb(106, 26, 122);
+    height: 12px;
+    width: 90px;
+    padding: 10px;
+}
+.search{
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 30px;
+    width: 220px;
+    padding: 10px;
+}
+.glass{
+    margin-left: -25px;
+    margin-top: -280px;
+    height: 20px;
+    margin-bottom: -7px;
+    color: darkmagenta;
+}
+
+.ways{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    margin-top: -40px;
+    gap: 20px;
+}
