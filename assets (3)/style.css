@@ -1,5 +1,4 @@
-*{
-}
+*
 body{
     padding: 0;
 }
@@ -119,45 +118,84 @@ nav{
 .hee:hover{
     background-color: #592B81;
 }
+.banking{
+    margin-top: px;
+}
+.set{
+    height: 470px;
+    width: 1330px;
+}
+.bank{
+    margin-top: -320px;
+    margin-bottom: 250px;
+    margin-left: 110px;
+}
+.more{
+    margin-top: 133px;
+    margin-left: 15px;
+    width: 180px;
+    height: 50px;
+}
+h1{
+    color: #592C81;
+    font-weight: (bold)700;
+    font-size: 42px;
+    width: 447px;
+    height: 92px;
+}
 .write{
     color: #808080;
-    font-size: 17px;
+    font-size: 19px;
     line-height: 23px;
     background-color: #FFFFFF;
     height: 115px;
-    width: 326px;
+    width: 308px;
+    margin-left: 15px;
 }
 .cash{
     display: flex;
+    gap: 20px;
     padding: 20px;
-    margin-top: 10px;
+    margin-top: -100px;
+    margin-right: 100px;
 }
 .manage{
-    margin-left: 150px;
-    border-color: #898B8B;
+    margin-left: 100px;
+    width: 359px;
+    height: 440px;
+    border: 1px solid #808080;
 }
 .man{
-    border-color: #333333;
+    padding: 15px;
     margin-top: 30px;
     width: 310px;
 }
 .foreign{
-    border: 50px;
-    border-color: #808080;
+    width: 359px;
+    height: 440px;
+    border: 1px solid #808080;
 }
 .age{
-    border-color: #333333;
+    padding: 15px;
     width: 310px;
+    margin-top: 0px;
 }
 .corporate{
-    border: 100px;
-    border-color: red;
+    width: 359px;
+    height: 440px;
+    border: 1px solid #808080;
+}
+h2{
+    padding: 5px;
+    color: #592C81;
+    margin-left: 10px;
 }
 .aged{
+    padding: 15px;
     border: 10px;
-    border-color: #333333;
     margin-top: 30px;
-    width: 310px;
+    margin-right: 2px;
+    width: 300px;
 }
 .find{
     background-color: #A6368C;
@@ -167,7 +205,9 @@ nav{
     width: 175px;
     font-weight: 400;
     font-size: 15px;
-    margin-left: 150px;
+    margin-left: 160px;
+    margin-top: -150px;
+    margin-bottom: 200px;
 }
 button{
     background-color: #A6368C;
@@ -183,4 +223,52 @@ button:hover{
 }
 .out{
     margin-top: 150px;
+    margin-left: 110px;
+}
+.trade{
+    display: flex;
+    flex-direction: column;
+    margin-right: 220px;
+}
+.services{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid #808080;
+    margin-right: -350px;
+    margin-top: 30px;
+    width: 1340px;
+    height: 450px;
+}
+.rade{
+    font-size: xx-large;
+    color: #592C81;
+    margin-left: -190px;
+}
+.rite{
+    color: #333333;
+    font-size: 18px;
+    line-height: 23px;
+    height: 115px;
+    width: 500px;
+    margin-top: -8px;
+    margin-left: -190px;
+}
+.asset{
+    margin-right: 150px;
+    margin-top: 20px;
+    height: 410px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen {
+    
 }
