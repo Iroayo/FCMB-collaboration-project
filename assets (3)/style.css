@@ -1,0 +1,274 @@
+*
+body{
+    padding: 0;
+}
+header{
+    background-color: #74449E;
+}
+nav{
+    display: flex;
+    text-decoration: none;
+    height: 42px;
+    margin-top: -10px;
+}
+.home{
+    display: flex;
+    gap: 20px;
+    width: 600px;
+    background-color: #A6368C;
+}
+.head-four{
+    color: white;
+    text-decoration: none;
+    margin-left: 150px;
+    margin-top: -8px;
+}
+.he:hover{
+    background-color:  #F8B51F;
+}
+.head{
+    color: white;
+    text-decoration: none;
+    margin-top: -8px;
+}
+.h:hover{
+    background-color:  #F8B51F;
+}
+.today{
+    margin-left: 360px;
+    font-size: 17px;
+    background-color: lightslategray;
+    width: 250px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.top{
+    margin-top: 15px;
+    margin-left: 100px;
+    display: flex;
+}
+.image{
+    margin-top: 5px;
+}
+.img{
+    margin-left: 25px;
+}
+.operations{
+    display: flex;
+    gap: 10px;
+    margin-top: -20px;
+    margin-left: 120px;
+}
+.head-one{
+    color: white;
+    background-color: #D10056;
+    height: 15px;
+    width: 130px;
+    margin-left: 200px;
+    padding: 10px;
+}
+.head-one:hover{
+    background-color:  #592B81;
+}
+.head-two{
+    color: white;
+    background-color: #592B81;
+    height: 12px;
+    width: 146px;
+    padding: 10px;
+}
+.head-two:hover{
+    background-color:  #D10056;
+}
+.head-three{
+    color: white;
+    background-color: #592B81;
+    height: 12px;
+    width: 90px;
+    padding: 10px;
+}
+.head-three:hover{
+    background-color:  #D10056 ;
+}
+.search{
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 30px;
+    width: 220px;
+    padding: 10px;
+}
+.glass{
+    margin-left: -25px;
+    margin-top: -280px;
+    height: 20px;
+    margin-bottom: -7px;
+    color: darkmagenta;
+}
+
+.ways{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    margin-top: -40px;
+    gap: 20px;
+}
+.hee:hover{
+    background-color: #592B81;
+}
+.banking{
+    margin-top: px;
+}
+.set{
+    height: 470px;
+    width: 1330px;
+}
+.bank{
+    margin-top: -320px;
+    margin-bottom: 250px;
+    margin-left: 110px;
+}
+.more{
+    margin-top: 133px;
+    margin-left: 15px;
+    width: 180px;
+    height: 50px;
+}
+h1{
+    color: #592C81;
+    font-weight: (bold)700;
+    font-size: 42px;
+    width: 447px;
+    height: 92px;
+}
+.write{
+    color: #808080;
+    font-size: 19px;
+    line-height: 23px;
+    background-color: #FFFFFF;
+    height: 115px;
+    width: 308px;
+    margin-left: 15px;
+}
+.cash{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-top: -100px;
+    margin-right: 100px;
+}
+.manage{
+    margin-left: 100px;
+    width: 359px;
+    height: 440px;
+    border: 1px solid #808080;
+}
+.man{
+    padding: 15px;
+    margin-top: 30px;
+    width: 310px;
+}
+.foreign{
+    width: 359px;
+    height: 440px;
+    border: 1px solid #808080;
+}
+.age{
+    padding: 15px;
+    width: 310px;
+    margin-top: 0px;
+}
+.corporate{
+    width: 359px;
+    height: 440px;
+    border: 1px solid #808080;
+}
+h2{
+    padding: 5px;
+    color: #592C81;
+    margin-left: 10px;
+}
+.aged{
+    padding: 15px;
+    border: 10px;
+    margin-top: 30px;
+    margin-right: 2px;
+    width: 300px;
+}
+.find{
+    background-color: #A6368C;
+    color: #FFFFFF;
+    border: none;
+    height: 39px;
+    width: 175px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 160px;
+    margin-top: -150px;
+    margin-bottom: 200px;
+}
+button{
+    background-color: #A6368C;
+    color: #FFFFFF;
+    border: none;
+    height: 39px;
+    width: 175px;
+    font-weight: 400;
+    font-size: 15px;
+   }
+button:hover{
+    background-color:  #F8B51F;
+}
+.out{
+    margin-top: 150px;
+    margin-left: 110px;
+}
+.trade{
+    display: flex;
+    flex-direction: column;
+    margin-right: 220px;
+}
+.services{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid #808080;
+    margin-right: -350px;
+    margin-top: 30px;
+    width: 1340px;
+    height: 450px;
+}
+.rade{
+    font-size: xx-large;
+    color: #592C81;
+    margin-left: -190px;
+}
+.rite{
+    color: #333333;
+    font-size: 18px;
+    line-height: 23px;
+    height: 115px;
+    width: 500px;
+    margin-top: -8px;
+    margin-left: -190px;
+}
+.asset{
+    margin-right: 150px;
+    margin-top: 20px;
+    height: 410px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen {
+    
+}
