@@ -278,58 +278,82 @@ button:hover{
 
 @media only screen and(max-width: 600px) {
     nav{
-
+        width: 600px;
+    }
+    body{
+        width: 600px;
     }
     .home{
-
+        height: 150px;
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #592B81;
+        color: white;
+    }
+    .home:hover{
+        color: #F8B51F;
+        text-decoration: underline;
     }
     .today{
-
+        width: 550px;
     }
     .top{
-
+        width: 550px;
     }
     .image{
-
+        width: 550px;
     }
     .operations{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: #592B81;
+        color: white;
+        width: 550px;
     }
+.operations:hover{
+    width: 550px;
+}
     .magnify{
-
+        width: 550px;
     }
     .ways{
-
+        width: 550px;
     }
     .banking{
-
+        width: 550px;
     }
     .bank{
-
+        width: 80%;
     }
     .cash{
-
+        width: 550px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
     .manage{
-
+        width: 550px;
     }
     .foreign{
-
+        width: 550px;
     }
     .corporate{
-
+        width: 550px;
     }
     .services{
-        
+        width: 550px;
     }
     .trade{
-
+        width: 550px;
     }
     .seet{
-
+        width: 550px;
     }
 }
 
