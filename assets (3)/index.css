@@ -3,6 +3,182 @@
     margin: 0;
 }
 
+#list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.list{
+    font-family: "Gotham", Open Sans, Helvetica, Arial;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    color: #525252;
+}
+
+.list:hover{
+    color:#5e2785;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#banking{
+    margin-top: 25px;
+    background-image: url(../assets_1/asset\ 5.jpeg);
+    background-size: cover;
+    height: 500px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.banking2{
+    padding-top: 25px;
+    margin-left: 465px;
+}
+
+.business{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-family: "Gotham", Open Sans, Helvetica, Arial;
+    font-size: 45px;
+    color: rgb(91, 39, 132);
+}
+
+.enjoy{
+    font-family: "Gotham", Open Sans, Helvetica, Arial;
+    font-size: 17px;
+    color: #3d4248 ;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+    width: 447px;
+    height: 78.51px;
+    margin-bottom: 50px;
+}
+
+.start{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    min-width: 150px;
+    text-align: center;
+    background: rgb(166, 54, 140);
+    padding: 10px 15px;
+    font-family: "Gotham", Open Sans, Helvetica, Arial;
+    font-size: 16px;
+}
+
+.start:hover{
+    color:  #5a2c82;
+    text-decoration: none;
+    background: #f8b51f;
+}
+
+#quick{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.quick{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(226, 226, 226);
+    width: 380px;
+    height: 440px;
+}
+
+.h3{
+    color: #5b2784;
+    font-family: "Gotham", Open Sans, Helvetica, Arial;
+    font-size: 25px;
+    width: 300px;
+    padding: 15px;
+}
+
+.p{
+    color: #575756;
+    font-size: 16px;
+    font-family: "Gotham", Open Sans, Helvetica, Arial;
+    width: 300px;
+    padding: 15px;
+}
+
+
+.diff{
+    margin-top: 60px;
+    padding-left: 10px;
+}
+
+img{
+    margin-top: 50px;
+    padding-left: 10px;
+}
+
+#new{
+    display: flex;
+    justify-content:center;
+    position: relative;
+    margin-top: -30px;
+    margin-left: 190px;
+}
+#new1{
+    display: flex;
+    justify-content:center;
+    position: relative;
+    margin-top: -30px;
+    margin-left: 70px;
+}
+
+.new{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    min-width: 150px;
+    text-align: center;
+    background: rgb(166, 54, 140);
+    padding: 10px 15px;
+    font-family: "Gotham", Open Sans, Helvetica, Arial;
+    font-size: 16px;
+}
+
+.new:hover{
+    color:  #5a2c82;
+    text-decoration: none;
+    background: #f8b51f;
+}
+
+
+#stay{
+    display: flex;
+    background-image: url(../assets_1/asset\ 7.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 430px;
+}
+
+.stay{
+    font-family: "Gotham", Open Sans, Helvetica, Arial;
+    font-size: 40px;
+    color: rgb(91, 39, 132);
+    width: 530px;    
+    margin-top: 30px;
+    margin-left: 380px;
+}
+
+
+
+
+
+
+
+#footer{
+    position: relative;
+    margin-top: 5px;
+}
+
 #footer1{
     background-color: #F7F7F7;
     padding-top: 30px;
@@ -10,12 +186,12 @@
 }
 
 #site{
-    font-family: "Gotham", "Open Sans", Helvetica, Arial, sans-serif, Arial;
-    color:  #898B8B;
-    margin-bottom: 25px;
-    display: flex;
+   font-family: "Gotham", "Open Sans", Helvetica, Arial, sans-serif, Arial;
+   color:  #898B8B;
+   margin-bottom: 25px;
+   display: flex;
    justify-content: center;
-   width: 910px;
+   width: 860px;
 }
 
 #footer2{
@@ -50,9 +226,10 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
-p{ 
+.my{ 
     margin-left: 1050px;
     color: white;
     font-family: "Gotham", "Open Sans", Helvetica, Arial, sans-serif, Arial;
@@ -66,20 +243,72 @@ p{
     width: 170px;
 }
 
-@media only screen and(max-width: 600px) {
-    #footer1{
-        background-color: #F7F7F7;
+#combination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 20px;
+}
+
+#logo{
+    gap: 50px;
+}
+
+.logo{
+    color: rgb(91, 39, 132);
+    font-size: 40px;
+}
+
+.logo:hover{
+    color: #f8b51f;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#privacy{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.privacy{
+    color: rgb(96, 97, 97);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.privacy:hover{
+    text-decoration: none;
+}
+
+.last{
+    font-family: "Gotham", "Open Sans", Helvetica, Arial, sans-serif, Arial;
+    font-size: 13px;
+    margin-left: 380px;
+    color: #3e3f3f;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    #list{
+        display: none;
     }
 
-    #footer2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 20px;
+    #banking{
+        margin-top: 25px;
+        background-image: url(../assets_1/asset\ 5.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 800px;
     }
-
-    #site{
-        color: rgb(76, 76, 203);
-    }
+    
     
 }
